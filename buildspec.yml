@@ -1,0 +1,17 @@
+phases:
+  install:
+    runtime-versions:
+      java: corretto8
+  pre_build:
+    commands:
+    - echo In the pre_build phase...
+  build:
+    commands:
+    - echo Build started on `date`
+  post_build:
+    commands:
+    - echo Build completed on `date`
+    - mvn clean package deploy -DmuleDeploy
+artifacts:
+  files:
+  - target/hello-world*
