@@ -19,7 +19,7 @@ output application/json
 ---
 
 {
-	"message": "Hello world"
+	"message": "Hello mule"
 }
 
 ]]></ee:set-payload>
