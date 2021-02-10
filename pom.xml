@@ -38,9 +38,9 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<target>server-monitoring</target>
 						<targetType>server</targetType>
-						<username>sachin-sharma4</username>
-						<password>Pb39f3825@mulesoft</password>
-						<environment>Sandbox</environment>
+						<username>${username}</username>
+						<password>${password}</password>
+						<environment>${env}</environment>
 						<properties>
 							<key>value</key>
 						</properties>
